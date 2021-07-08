@@ -14,6 +14,9 @@
 		2BCBC6B4269453F100A7F3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCBC6B3269453F100A7F3AB /* main.m */; };
 		2BCBC6BF269453F200A7F3AB /* KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCBC6BE269453F200A7F3AB /* KVODemoTests.m */; };
 		2BCBC6CA269453F200A7F3AB /* KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCBC6C9269453F200A7F3AB /* KVODemoUITests.m */; };
+		2BCBC6DC2694543600A7F3AB /* DCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCBC6DB2694543600A7F3AB /* DCKVO.m */; };
+		2BCBC6E52694547400A7F3AB /* DCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCBC6E42694547400A7F3AB /* DCPerson.m */; };
+		2BDFD88226972B0F005C8325 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BDFD88126972B0F005C8325 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		2BCBC6C5269453F200A7F3AB /* KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCBC6C9269453F200A7F3AB /* KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoUITests.m; sourceTree = "<group>"; };
 		2BCBC6CB269453F200A7F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCBC6DA2694543600A7F3AB /* DCKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKVO.h; sourceTree = "<group>"; };
+		2BCBC6DB2694543600A7F3AB /* DCKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKVO.m; sourceTree = "<group>"; };
+		2BCBC6E32694547400A7F3AB /* DCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCPerson.h; sourceTree = "<group>"; };
+		2BCBC6E42694547400A7F3AB /* DCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCPerson.m; sourceTree = "<group>"; };
+		2BDFD88126972B0F005C8325 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 				2BCBC6B2269453F100A7F3AB /* Info.plist */,
 				2BCBC6B3269453F100A7F3AB /* main.m */,
 				2BCBC6B5269453F100A7F3AB /* KVODemo.entitlements */,
+				2BCBC6DA2694543600A7F3AB /* DCKVO.h */,
+				2BCBC6DB2694543600A7F3AB /* DCKVO.m */,
+				2BDFD88126972B0F005C8325 /* README.md */,
+				2BCBC6E32694547400A7F3AB /* DCPerson.h */,
+				2BCBC6E42694547400A7F3AB /* DCPerson.m */,
 			);
 			path = KVODemo;
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 		2BCBC69C269453EF00A7F3AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DC;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					2BCBC6A3269453EF00A7F3AB = {
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDFD88226972B0F005C8325 /* README.md in Resources */,
 				2BCBC6AE269453F100A7F3AB /* Assets.xcassets in Resources */,
 				2BCBC6B1269453F100A7F3AB /* Main.storyboard in Resources */,
 			);
@@ -259,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCBC6E52694547400A7F3AB /* DCPerson.m in Sources */,
 				2BCBC6AC269453EF00A7F3AB /* ViewController.m in Sources */,
+				2BCBC6DC2694543600A7F3AB /* DCKVO.m in Sources */,
 				2BCBC6B4269453F100A7F3AB /* main.m in Sources */,
 				2BCBC6A9269453EF00A7F3AB /* AppDelegate.m in Sources */,
 			);
